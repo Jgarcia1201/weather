@@ -1,0 +1,153 @@
+body {
+    background-image: url(/src/testback.jpg);
+    background-repeat: no-repeat;
+    background-size: fill;
+    margin: 0;
+    padding: 0px; 
+    z-index: -1;
+}
+
+#header {
+    background-color: rgba(14, 12, 44, 0);
+    width: 100%; 
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logoBox {
+    width: 10%;
+    height: 80px;
+    color: white;
+    font-family: monospace;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.searchBox {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(98, 98, 122, 0.507);
+    border: none;
+    color: white;
+    padding-left: 15px;
+    outline: none;
+    font-size: 15px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    width: 270px;
+    height: 40px;
+    background-color: rgba(98, 98, 122, 0);
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.material-icons {
+    color: rgba(255, 255, 255, 0.575);
+    transition: 1s;
+}
+
+.material-icons:hover {
+    color: white;
+}
+
+.weatherBox {
+    color: white;
+    font-size: 75px;
+    font-family: monospace;
+    text-shadow: 10px 5px 5px rgba(0, 0, 0, 0.473);
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 25%; 
+    left: 10%;
+    transition: 2s;
+}
+
+.cityBox {
+    height: 100px;
+    width: 490px;
+    align-self: center;
+    justify-self: last baseline;
+    margin-top: 10px;
+}
+
+.city {
+    box-sizing: border-box;
+    height: 50%;
+    width: 100%;
+    font-size: 30px;
+    padding-left: 10px; 
+    font-family: monospace;
+}
+
+.cond {
+    box-sizing: border-box;
+    height: 50%;
+    width: 100%;
+    font-size: 25px;
+    padding-left: 10px; 
+    font-family: monospace;
+}
+
+.temp {
+    width: 420px;
+    height: 150px;
+    margin-top: 20px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+
+.deg {
+    width: 50%;
+    height: 90%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    margin-right: 10px;
+}
+
+.info {
+    border-left: 2px solid white; 
+    width: 400px; 
+    height: 90%;
+}
+
+.infoItem {
+    width: 400px;
+    box-sizing: border-box;
+    height: 33.3%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 30px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
